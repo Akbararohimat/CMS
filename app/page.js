@@ -239,11 +239,6 @@ export default function DashboardPage() {
                 Manage All Client Webistes and Template Comtronics.
               </p>
           </div>
-
-          <Button className="h-10 gap-2 self-start bg-[#102c62] hover:bg-[#183d7c]">
-            <Plus size={17} />
-            Add Website
-          </Button>
         </section>
 
         <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4">
