@@ -1,0 +1,218 @@
+
+{
+  "siteName": "CampusOne",
+  "logo": "",
+  "identity": {
+    "tagline": "Build Your Future",
+    "primaryColor": "#073B2D",
+    "secondaryColor": "#DDAF4B",
+    "backgroundColor": "#F8F5EF",
+    "textColor": "#17372D"
+  },
+  "header": {
+    "navigation": [
+      { "label": "Beranda", "href": "#home" },
+      { "label": "Tentang", "href": "#about" },
+      { "label": "Akademik", "href": "#programs" },
+      { "label": "Kehidupan Kampus", "href": "#campus-life" },
+      { "label": "Informasi", "href": "#news" }
+    ],
+    "buttonText": "Daftar Sekarang",
+    "buttonHref": "#admissions"
+  },
+  "hero": {
+    "eyebrow": "LEARN · GROW · ACHIEVE",
+    "heading": "Universitas Berkelas Dunia",
+    "highlightText": "di Indonesia",
+    "description": "Temukan pengalaman belajar yang inspiratif, lingkungan akademik yang suportif, dan kesempatan untuk mengembangkan potensi terbaikmu.",
+    "backgroundImage": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=2200&q=90",
+    "primaryButton": {
+      "text": "Jelajahi Kampus",
+      "href": "#campus-life"
+    },
+    "secondaryButton": {
+      "text": "Tentang Kami",
+      "href": "#about"
+    },
+    "floatingCards": [
+      { "title": "Program Akademik", "description": "Pilihan bidang studi untuk berbagai minat." },
+      { "title": "Kehidupan Kampus", "description": "Ruang untuk belajar, berkarya, dan berkembang." },
+      { "title": "Peluang Masa Depan", "description": "Bekal untuk menghadapi dunia profesional." }
+    ]
+  },
+  "programs": {
+    "eyebrow": "PROGRAM AKADEMIK",
+    "heading": "Program Studi Unggulan Kami",
+    "description": "Jelajahi berbagai bidang studi dan temukan program yang sesuai dengan minat serta tujuan masa depanmu.",
+    "categories": [
+      {
+        "label": "Teknologi & Sains",
+        "items": [
+          {
+            "title": "Teknik Informatika",
+            "description": "Mempelajari teknologi, komputasi, dan pengembangan solusi digital.",
+            "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "title": "Bioteknologi",
+            "description": "Mengeksplorasi penerapan ilmu biologi dan teknologi.",
+            "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "title": "Sains Data",
+            "description": "Mengolah data menjadi wawasan dan solusi yang bermakna.",
+            "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      },
+      {
+        "label": "Bisnis & Ekonomi",
+        "items": [
+          {
+            "title": "Manajemen",
+            "description": "Membangun kemampuan kepemimpinan dan pengelolaan organisasi.",
+            "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "title": "Akuntansi",
+            "description": "Memahami informasi keuangan dan pengambilan keputusan.",
+            "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      },
+      {
+        "label": "Sosial & Humaniora",
+        "items": [
+          {
+            "title": "Ilmu Komunikasi",
+            "description": "Mempelajari komunikasi, media, dan hubungan masyarakat.",
+            "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85"
+          },
+          {
+            "title": "Psikologi",
+            "description": "Mempelajari perilaku dan proses mental manusia.",
+            "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      },
+      {
+        "label": "Kesehatan",
+        "items": [
+          {
+            "title": "Kesehatan Masyarakat",
+            "description": "Mempelajari upaya peningkatan kesehatan komunitas.",
+            "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      },
+      {
+        "label": "Seni & Desain",
+        "items": [
+          {
+            "title": "Desain Komunikasi Visual",
+            "description": "Mengembangkan gagasan melalui komunikasi visual dan kreativitas.",
+            "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=85"
+          }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "TENTANG KAMI",
+    "heading": "Lebih dari Sekadar Pendidikan",
+    "description": "Pendidikan adalah perjalanan untuk menemukan potensi, membangun karakter, dan menciptakan kontribusi positif bagi masyarakat.",
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=90",
+    "buttonText": "Kenali Kami",
+    "buttonHref": "#values",
+    "values": [
+      {
+        "title": "Pendidikan Berkualitas",
+        "description": "Pengalaman belajar yang mendorong kemampuan akademik dan profesional."
+      },
+      {
+        "title": "Lingkungan Inklusif",
+        "description": "Ruang belajar yang menghargai keberagaman dan kolaborasi."
+      },
+      {
+        "title": "Inovasi Tanpa Batas",
+        "description": "Dorongan untuk terus mengeksplorasi ide dan pengetahuan baru."
+      }
+    ]
+  },
+  "campusLife": {
+    "eyebrow": "CAMPUS LIFE",
+    "heading": "Kehidupan Kampus yang Dinamis",
+    "description": "Belajar, berorganisasi, berkolaborasi, dan menemukan pengalaman baru di lingkungan kampus.",
+    "items": [
+      {
+        "title": "Kolaborasi Mahasiswa",
+        "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1100&q=85"
+      },
+      {
+        "title": "Ruang Belajar",
+        "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=1100&q=85"
+      },
+      {
+        "title": "Aktivitas Komunitas",
+        "image": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1100&q=85"
+      },
+      {
+        "title": "Kegiatan Kreatif",
+        "image": "https://images.unsplash.com/photo-1517457373958-b7store?auto=format&fit=crop&w=1100&q=85"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "INFORMASI KAMPUS",
+    "heading": "Cerita dan Informasi Terbaru",
+    "description": "Ikuti informasi, aktivitas, dan kabar terbaru dari lingkungan akademik.",
+    "items": [
+      {
+        "category": "Akademik",
+        "date": "Informasi kampus",
+        "title": "Jelajahi Berbagai Peluang Pengembangan Akademik",
+        "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85",
+        "href": "#admissions"
+      },
+      {
+        "category": "Kehidupan Kampus",
+        "date": "Cerita mahasiswa",
+        "title": "Ruang Kolaborasi untuk Mengembangkan Potensi",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1000&q=85",
+        "href": "#campus-life"
+      },
+      {
+        "category": "Penerimaan",
+        "date": "Informasi pendaftaran",
+        "title": "Persiapkan Langkah Berikutnya Bersama CampusOne",
+        "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85",
+        "href": "#admissions"
+      }
+    ]
+  },
+  "admissions": {
+    "eyebrow": "YOUR NEXT CHAPTER STARTS HERE",
+    "heading": "Masa Depanmu Dimulai dari Sini",
+    "description": "Temukan bidang yang kamu minati dan mulai rencanakan perjalanan akademikmu.",
+    "buttonText": "Informasi Pendaftaran",
+    "buttonHref": "#contact"
+  },
+  "footer": {
+    "description": "Ruang untuk belajar, bertumbuh, dan membangun masa depan.",
+    "address": "Alamat institusi akan ditampilkan di sini.",
+    "email": "info@campusone.example",
+    "phone": "+62 000 0000 0000",
+    "navigation": [
+      { "label": "Beranda", "href": "#home" },
+      { "label": "Tentang", "href": "#about" },
+      { "label": "Akademik", "href": "#programs" },
+      { "label": "Kehidupan Kampus", "href": "#campus-life" }
+    ],
+    "services": [
+      { "label": "Penerimaan", "href": "#admissions" },
+      { "label": "Program Studi", "href": "#programs" },
+      { "label": "Informasi", "href": "#news" }
+    ],
+    "copyright": "© CampusOne. Seluruh hak cipta dilindungi."
+  }
+}

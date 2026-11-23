@@ -1,0 +1,63 @@
+{
+  "siteName": "EduPro",
+  "logo": "",
+  "header": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#1e293b",
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Programs", "href": "#programs" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "buttonText": "Get Started",
+    "buttonHref": "#contact"
+  },
+  "hero": {
+    "badgeText": "Welcome to EduPro",
+    "heading": "Shape Your",
+    "highlightText": "Future.",
+    "description": "Discover a better way to learn and grow.",
+    "backgroundImage": "",
+    "primaryButton": {
+      "text": "Explore Programs",
+      "href": "#programs"
+    },
+    "secondaryButton": {
+      "text": "Learn More",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "eyebrow": "ABOUT US",
+    "heading": "Education for Everyone",
+    "description": "We provide quality education for everyone.",
+    "image": "",
+    "buttonText": "Learn More",
+    "buttonHref": "#programs"
+  },
+  "programs": {
+    "eyebrow": "OUR PROGRAMS",
+    "heading": "Explore Our Programs",
+    "description": "Find the right program for your future.",
+    "items": []
+  },
+  "testimonials": {
+    "eyebrow": "TESTIMONIALS",
+    "heading": "What Students Say",
+    "items": []
+  },
+  "cta": {
+    "heading": "Start Your Journey Today",
+    "description": "Take the first step toward your future.",
+    "buttonText": "Get Started",
+    "buttonHref": "#contact"
+  },
+  "footer": {
+    "description": "Helping students build a brighter future.",
+    "quickLinks": [],
+    "address": "",
+    "email": "",
+    "copyright": ""
+  }
+}

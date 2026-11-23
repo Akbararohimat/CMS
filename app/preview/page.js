@@ -2,17 +2,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getCorpProConfig } from "../../../../lib/site-config";
+import { getKmkWebsiteConfig } from "../../lib/site-config";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Services from "./components/Services";
-import WhyChooseUs from "./components/WhyChooseUs";
-import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import Header from "../templates/corppro/preview/components/Header";
+import Hero from "../templates/corppro/preview/components/Hero";
+import About from "../templates/corppro/preview/components/About";
+import Services from "../templates/corppro/preview/components/Services";
+import WhyChooseUs from "../templates/corppro/preview/components/WhyChooseUs";
+import Projects from "../templates/corppro/preview/components/Projects";
+import Testimonials from "../templates/corppro/preview/components/Testimonials";
+import CTA from "../templates/corppro/preview/components/CTA";
+import Footer from "../templates/corppro/preview/components/Footer";
 
 const sectionComponents = {
   header: Header,
@@ -26,17 +26,19 @@ const sectionComponents = {
   footer: Footer,
 };
 
-export default function CorpProPreviewPage() {
+export default function KmkPreviewPage() {
   const [config, setConfig] = useState(null);
 
   useEffect(() => {
-    setConfig(getCorpProConfig());
+    setConfig(getKmkWebsiteConfig());
   }, []);
 
   if (!config) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-white">
-        <p className="text-sm text-gray-500">Loading preview...</p>
+        <p className="text-sm text-gray-500">
+          Loading preview...
+        </p>
       </main>
     );
   }
@@ -53,7 +55,8 @@ export default function CorpProPreviewPage() {
   const orderedSections = [...editorSections]
     .filter(
       (section) =>
-        section.id !== "customers" && section.visible !== false
+        section.id !== "customers" &&
+        section.visible !== false
     )
     .sort((a, b) => a.order - b.order);
 

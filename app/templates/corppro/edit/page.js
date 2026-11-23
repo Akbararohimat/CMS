@@ -22,8 +22,8 @@ import {
   ChevronDown,
 } from "lucide-react";
 import {
-  getCorpProConfig,
-  saveCorpProConfig,
+  getCorpProTemplateConfig,
+  saveCorpProTemplateConfig,
 } from "../../../../lib/site-config";
 import MediaPicker from "../preview/components/MediaPicker";
 
@@ -156,7 +156,7 @@ export default function CorpProEditorPage() {
 
   useEffect(() => {
     try {
-      const loadedConfig = getCorpProConfig();
+      const loadedConfig = getCorpProTemplateConfig();
       setSectionSettings(
         normalizeSectionSettings(loadedConfig.editorSections)
       );
@@ -321,7 +321,7 @@ export default function CorpProEditorPage() {
     }
 
     try {
-      saveCorpProConfig({
+      saveCorpProTemplateConfig({
         ...config,
         editorSections: sectionSettings,
       });

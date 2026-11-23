@@ -1,0 +1,343 @@
+{
+  "siteName": "PT KMK Plastics Indonesia",
+  "logo": "",
+  "header": {
+    "backgroundColor": "#3046b5",
+    "textColor": "#ffffff",
+    "navigation": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "About",
+        "href": "#about"
+      },
+      {
+        "label": "Products",
+        "href": "#product"
+      },
+      {
+        "label": "Activity",
+        "href": "#activity"
+      },
+      {
+        "label": "Contact Us",
+        "href": "#contact"
+      }
+    ],
+    "buttonText": "Get Started",
+    "buttonHref": "#contact"
+  },
+  "hero": {
+    "badgeText": "Innovative Solutions",
+    "heading": "Welcome to",
+    "highlightText": "PT KMK Plastics Indonesia",
+    "description": "PT KMK Plastics Indonesia is a leading manufacturer specializing in high-quality plastics components, advanced injection molding, and comprehensive international-standard mold solutions.",
+    "backgroundImage": "https://ptkmk.co.id/images/home2.jpg",
+    "backgroundMedia": null,
+    "backgroundPosition": "center center",
+    "overlayColor": "#FFFFFF",
+    "overlayOpacity": 89,
+    "primaryButton": {
+      "text": "Learn More",
+      "href": "#about"
+    },
+    "secondaryButton": {
+      "text": "Our Services",
+      "href": "#services"
+    },
+    "backgroudPosition": "center center"
+  },
+  "customers": {
+    "eyebrow": "TRUSTED PARTNERS",
+    "heading": "Our Customers",
+    "description": "Trusted by businesses across different industries.",
+    "animationEnabled": true,
+    "animationSpeed": 14,
+    "items": [
+      {
+        "id": "3f760444-213d-4704-8845-da71674a4afb",
+        "name": "Daihatsu",
+        "logo": {
+          "id": "536cb5ba-822f-40b7-a3c1-0b9435d1d47d",
+          "name": "OIP (5).webp",
+          "type": "image/webp",
+          "size": 3394
+        }
+      },
+      {
+        "id": "05679eee-49fc-4316-862e-b998a5bc2b6a",
+        "name": "Epson",
+        "logo": {
+          "id": "7724327b-499e-4a24-acc8-15188f66bffb",
+          "name": "images.jpg",
+          "type": "image/jpeg",
+          "size": 19978
+        }
+      },
+      {
+        "id": "aa160d8a-63b0-45a0-b715-af6db17ab32c",
+        "name": "Ani",
+        "logo": {
+          "id": "30ca0487-eb8c-4273-8cbb-85ad8c65a892",
+          "name": "1678588387071.jpg",
+          "type": "image/jpeg",
+          "size": 5859
+        }
+      },
+      {
+        "id": "97f28c76-6542-4bbf-a019-106931459480",
+        "name": "Denso",
+        "logo": {
+          "id": "7e206b02-a48e-460b-97cb-c520620e7dc0",
+          "name": "images (2).png",
+          "type": "image/png",
+          "size": 8797
+        }
+      },
+      {
+        "id": "d359b0a9-17be-4b8f-b53b-389abd08091d",
+        "name": "Fujikura",
+        "logo": {
+          "id": "cff577e1-76c9-4e89-8b6c-03b1e9a12455",
+          "name": "OIP (6).webp",
+          "type": "image/webp",
+          "size": 2064
+        }
+      },
+      {
+        "id": "524c3ef5-b896-467e-88ca-8c870ce9af4d",
+        "name": "Fuji Seat",
+        "logo": {
+          "id": "77882b7f-e4f0-4740-ac91-9aa2aa40b28c",
+          "name": "download (1).webp",
+          "type": "image/webp",
+          "size": 3434
+        }
+      },
+      {
+        "id": "477c97fb-46c3-41bf-9d27-4c0af7e2feeb",
+        "name": "Tokai Dharma",
+        "logo": {
+          "id": "19718870-e02d-4b6f-b36a-02225cb1458f",
+          "name": "OIP (7).webp",
+          "type": "image/webp",
+          "size": 2002
+        }
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About Our Company",
+    "heading": "PT KMK Plastics Indonesia",
+    "description": "PT. KMK Plastics Indonesia is a leading company specializing in the provision of high-quality plastic components, with expertise in injection molding, printing, painting, and assembly processes. We are also actively involved in the manufacturing, maintenance, modification, and repair of molds to international standards.\n\nWe are committed to delivering innovative and efficient manufacturing solutions to our clients, ensuring that each product meets the highest expectations of quality and reliability.",
+    "secondaryDescription": "With extensive experience and support from the latest technology, we are ready to meet your business needs and become a trusted partner in the plastic manufacturing industry.",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T8xwlltRxc9_SLVEk0bp8jefymPX5ufYsezJKDRKq8OMy9Bkkwt2wSVWejKMXKGcuR6r41bQxSOmcnjlH3mE7H0PokRp12U3eELIq1_sBD0R_Xz3EKg5rWFRJcDs-ifbB8SWRhcfq_Reo=s1360-w1360-h1020-rw",
+    "buttonText": "Discover More",
+    "buttonHref": "#services"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "heading": "Comprehensive Solutions for Your Business",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+    "items": [
+      {
+        "icon": "BriefcaseBusiness",
+        "title": "Business Strategy",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+        "buttonText": "Learn More",
+        "buttonHref": "#contact"
+      },
+      {
+        "icon": "ChartNoAxesCombined",
+        "title": "Digital Transformation",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+        "buttonText": "Learn More",
+        "buttonHref": "#contact"
+      },
+      {
+        "icon": "Lightbulb",
+        "title": "Consulting Services",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+        "buttonText": "Learn More",
+        "buttonHref": "#contact"
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "eyebrow": "Our Goals",
+    "heading": "Vision ",
+    "description": "PT. KMK PLASTICS INDONESIA is a leader in the plastics parts and mold industry by producing high-class products compliant with technological development.",
+    "benefits": [],
+    "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1100&q=85",
+    "buttonText": "Explore Our Work",
+    "buttonHref": "#projects",
+    "visionMission": {
+      "vision": {
+        "title": "Vision",
+        "description": "PT. KMK PLASTICS INDONESIA is a leader in the plastics parts and mold industry by producing high-class products compliant with technological development.",
+        "hoverContent": "This is Our Vision",
+        "image": null
+      },
+      "mission": {
+        "title": "Mission",
+        "description": "Offering benefits to companies, employees, customers, and society by avoiding damage to nature and the environment through the use of “environmentally friendly products”.",
+        "hoverContent": "This is Our Mission",
+        "image": null
+      },
+      "hoverEffect": "auto",
+      "hoverDuration": 400
+    }
+  },
+  "projects": {
+    "eyebrow": "Our Projects",
+    "heading": "Trusted by Many, Proven by Results",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus.",
+    "items": [
+      {
+        "title": "MOLD",
+        "category": "MANUFACTURE",
+        "image": "https://ptkmk.co.id/images/Slide1.png"
+      },
+      {
+        "title": "PART",
+        "category": "MANUFACTURE",
+        "image": "https://ptkmk.co.id/images/Slide2.png"
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "heading": "What Our Clients Say",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Hear what people have to say about working with us.",
+    "quote": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis.",
+    "rating": 5,
+    "clientName": "Sarah Wijaya",
+    "clientRole": "CEO, ABC Company",
+    "clientImage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=160&q=85"
+  },
+  "cta": {
+    "heading": "Let’s Build Something Great Together",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Let’s discuss how we can help your business move forward.",
+    "buttonText": "Get Started",
+    "buttonHref": "mailto:hello@example.com",
+    "backgroundColor": "#2563EB",
+    "buttonBackgroundColor": "#FFFFFF",
+    "buttonTextColor": "#1D4ED8"
+  },
+  "footer": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Building better solutions for a better future.",
+    "quickLinks": [
+      {
+        "label": "Home",
+        "href": "#home"
+      },
+      {
+        "label": "About Us",
+        "href": "#about"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Our Projects",
+        "href": "#projects"
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ],
+    "resources": [
+      {
+        "label": "Our Services",
+        "href": "#services"
+      },
+      {
+        "label": "Case Studies",
+        "href": "#projects"
+      },
+      {
+        "label": "Testimonials",
+        "href": "#testimonials"
+      }
+    ],
+    "socials": [
+      {
+        "platform": "Facebook",
+        "href": "https://facebook.com"
+      },
+      {
+        "platform": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "LinkedIn",
+        "href": "https://linkedin.com"
+      }
+    ],
+    "address": "123 Business Avenue\nBandung",
+    "email": "hello@example.com",
+    "copyright": "© 2026 CorpPro. All rights reserved.",
+    "credit": "Comtronics"
+  },
+  "programs": {},
+  "editorSections": [
+    {
+      "id": "header",
+      "label": "Header",
+      "visible": true,
+      "order": 0
+    },
+    {
+      "id": "hero",
+      "label": "Hero",
+      "visible": true,
+      "order": 1
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "visible": true,
+      "order": 3
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "visible": true,
+      "order": 4
+    },
+    {
+      "id": "whyChooseUs",
+      "label": "Our Goals",
+      "visible": true,
+      "order": 5
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "visible": true,
+      "order": 6
+    },
+    {
+      "id": "testimonials",
+      "label": "Our Customers",
+      "visible": true,
+      "order": 7
+    },
+    {
+      "id": "cta",
+      "label": "Call to Action",
+      "visible": true,
+      "order": 8
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "visible": true,
+      "order": 9
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "siteName": "SchoolMate",
+  "tagline": "Curious minds. Bright futures.",
+  "identity": {
+    "primary": "#2449D8",
+    "secondary": "#FF705D",
+    "accent": "#FFD84D",
+    "ink": "#17213D",
+    "paper": "#FFFDF7",
+    "muted": "#69738B"
+  },
+  "header": {
+    "logoText": "schoolmate",
+    "navigation": [
+      { "label": "Our School", "href": "#our-school" },
+      { "label": "Learning", "href": "#learning" },
+      { "label": "Student Life", "href": "#student-life" },
+      { "label": "For Parents", "href": "#parents" }
+    ],
+    "buttonLabel": "Explore Admissions",
+    "buttonHref": "#admissions"
+  },
+  "hero": {
+    "eyebrow": "A PLACE TO GROW, PLAY & DISCOVER",
+    "title": "Big dreams start with little discoveries.",
+    "description": "A welcoming learning community where every student is encouraged to explore their interests, build confidence, and discover what they can become.",
+    "primaryButton": "Discover Our School",
+    "primaryHref": "#our-school",
+    "secondaryButton": "See How We Learn",
+    "secondaryHref": "#learning",
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1400&q=85",
+    "imageAlt": "Students learning together in a bright classroom",
+    "imageLabel": "A happy place to learn",
+    "floatingNote": "Every day is a new adventure",
+    "statLabel": "A community built around curiosity"
+  },
+  "learningJourney": {
+    "eyebrow": "GROW AT YOUR OWN PACE",
+    "title": "Every stage has a new adventure.",
+    "description": "A learning journey designed to support students as their interests, confidence, and abilities grow.",
+    "levels": [
+      {
+        "number": "01",
+        "name": "Kindergarten",
+        "age": "Ages 3–5",
+        "description": "Discover the world through play, stories, creativity, and meaningful connections.",
+        "color": "coral",
+        "icon": "sun"
+      },
+      {
+        "number": "02",
+        "name": "Elementary",
+        "age": "Ages 6–11",
+        "description": "Build strong foundations through exploration, collaboration, and hands-on learning.",
+        "color": "yellow",
+        "icon": "book"
+      },
+      {
+        "number": "03",
+        "name": "Middle School",
+        "age": "Ages 12–14",
+        "description": "Develop independence, critical thinking, and confidence to explore new ideas.",
+        "color": "blue",
+        "icon": "compass"
+      },
+      {
+        "number": "04",
+        "name": "High School",
+        "age": "Ages 15–18",
+        "description": "Prepare for future opportunities through deeper learning and personal growth.",
+        "color": "lavender",
+        "icon": "graduation"
+      }
+    ]
+  },
+  "school": {
+    "eyebrow": "MORE THAN A CLASSROOM",
+    "title": "A school that sees the potential in everyone.",
+    "description": "We believe education should make room for questions, creativity, friendships, and the confidence to try something new.",
+    "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=85",
+    "imageAlt": "Bright and welcoming school environment",
+    "features": [
+      {
+        "title": "Curiosity comes first",
+        "description": "Students are encouraged to ask questions, investigate, and find their own paths to understanding."
+      },
+      {
+        "title": "Learning together",
+        "description": "Collaboration helps students listen, share ideas, and appreciate different perspectives."
+      },
+      {
+        "title": "Room to be yourself",
+        "description": "Every student brings different interests and strengths to the school community."
+      }
+    ]
+  },
+  "learning": {
+    "eyebrow": "LEARNING BY DOING",
+    "title": "Make room for wonder.",
+    "description": "Learning becomes meaningful when students can connect ideas with the world around them.",
+    "cards": [
+      {
+        "number": "01",
+        "title": "Explore",
+        "description": "Ask questions, investigate ideas, and discover new possibilities.",
+        "icon": "search",
+        "color": "blue"
+      },
+      {
+        "number": "02",
+        "title": "Create",
+        "description": "Turn imagination into projects, experiments, and original work.",
+        "icon": "palette",
+        "color": "coral"
+      },
+      {
+        "number": "03",
+        "title": "Collaborate",
+        "description": "Share perspectives, solve problems, and learn from one another.",
+        "icon": "users",
+        "color": "yellow"
+      }
+    ]
+  },
+  "studentLife": {
+    "eyebrow": "LIFE BEYOND THE LESSON",
+    "title": "The little moments make school special.",
+    "description": "From creative projects to outdoor discoveries, there is always something new to experience.",
+    "categories": ["All", "Arts", "Sports", "Community"],
+    "items": [
+      {
+        "title": "Creative Studio",
+        "category": "Arts",
+        "description": "A space for imagination, making, and creative expression.",
+        "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=85",
+        "imageAlt": "Colorful art materials on a creative workspace"
+      },
+      {
+        "title": "Team Adventures",
+        "category": "Sports",
+        "description": "Learning teamwork and confidence through movement and play.",
+        "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1000&q=85",
+        "imageAlt": "Students participating in a team sports activity"
+      },
+      {
+        "title": "Community Day",
+        "category": "Community",
+        "description": "Building friendships and making meaningful connections.",
+        "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1000&q=85",
+        "imageAlt": "A group enjoying an outdoor community activity"
+      },
+      {
+        "title": "Outdoor Discovery",
+        "category": "Arts",
+        "description": "Finding inspiration in nature and the world around us.",
+        "image": "https://images.unsplash.com/photo-1476231682828-37e571bc172f?auto=format&fit=crop&w=1000&q=85",
+        "imageAlt": "Green outdoor environment for exploration"
+      }
+    ]
+  },
+  "studentWorks": {
+    "eyebrow": "MADE BY CURIOUS MINDS",
+    "title": "Ideas worth sharing.",
+    "description": "A glimpse into the kinds of projects students can create when they are given room to explore.",
+    "items": [
+      {
+        "title": "The Little Garden Project",
+        "type": "Nature & Science",
+        "description": "Exploring plant growth and caring for a shared green space.",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "title": "Colorful Ideas",
+        "type": "Art & Design",
+        "description": "Expressing individual ideas through color, shape, and texture.",
+        "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "title": "Build It Together",
+        "type": "Creative Thinking",
+        "description": "Working as a team to imagine and build something new.",
+        "image": "https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1000&q=85"
+      }
+    ]
+  },
+  "parents": {
+    "eyebrow": "A PARTNERSHIP THAT MATTERS",
+    "title": "Growing together, every step of the way.",
+    "description": "A supportive school experience is built through open communication between students, families, and educators.",
+    "links": [
+      {
+        "title": "School Information",
+        "description": "Find useful information about school life and everyday routines.",
+        "href": "#contact"
+      },
+      {
+        "title": "Learning Support",
+        "description": "Discover how students are supported throughout their learning journey.",
+        "href": "#learning"
+      },
+      {
+        "title": "Get in Touch",
+        "description": "Have a question? Connect with the school community.",
+        "href": "#contact"
+      }
+    ]
+  },
+  "admissions": {
+    "eyebrow": "YOUR NEXT CHAPTER STARTS HERE",
+    "title": "Let's make room for what's possible.",
+    "description": "Get to know our school, explore the learning journey, and take the first step toward joining the community.",
+    "buttonLabel": "Start a Conversation",
+    "buttonHref": "#contact"
+  },
+  "footer": {
+    "description": "A welcoming learning community for curious minds and bright futures.",
+    "email": "hello@example.com",
+    "phone": "+62 000 0000 0000",
+    "address": "School address goes here",
+    "copyright": "© 2026 SchoolMate. Template demonstration content.",
+    "links": [
+      { "label": "Our School", "href": "#our-school" },
+      { "label": "Learning", "href": "#learning" },
+      { "label": "Student Life", "href": "#student-life" },
+      { "label": "Admissions", "href": "#admissions" }
+    ]
+  }
+}

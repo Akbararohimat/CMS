@@ -55,29 +55,40 @@ export default function EduProEditorPage() {
   function updateNavigation(index, field, value) {
     setConfig((current) => ({
       ...current,
-      navigation: current.navigation.map((item, i) =>
-        i === index ? { ...item, [field]: value } : item
-      ),
+      header: {
+        ...current.header,
+        navigation: current.header.navigation.map((item, i) =>
+          i === index ? { ...item, [field]: value } : item
+        ),
+      },
     }));
   }
 
   function addNavigation() {
     setConfig((current) => ({
       ...current,
-      navigation: [
-        ...current.navigation,
-        {
-          label: "New Menu",
-          href: "/preview",
-        },
-      ],
+      header: {
+        ...current.header,
+        navigation: [
+          ...current.header.navigation,
+          {
+            label: "New Menu",
+            href: "#contact",
+          },
+        ],
+      },
     }));
   }
 
   function removeNavigation(index) {
     setConfig((current) => ({
       ...current,
-      navigation: current.navigation.filter((_, i) => i !== index),
+      header: {
+        ...current.header,
+        navigation: current.header.navigation.filter(
+          (_, i) => i !== index
+        ),
+      },
     }));
   }
 
@@ -120,7 +131,7 @@ export default function EduProEditorPage() {
 
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/preview"
+              href="/templates/edupro/preview"
               target="_blank"
               className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
             >
@@ -195,6 +206,7 @@ export default function EduProEditorPage() {
                 alt="Website logo preview"
                 className="h-14 w-14 rounded-lg border border-slate-200 bg-white object-contain p-2"
               />
+
               <div>
                 <p className="text-sm font-medium text-slate-700">
                   Logo Preview
@@ -306,7 +318,7 @@ export default function EduProEditorPage() {
               </div>
 
               <div className="flex flex-wrap gap-4 text-xs">
-                {config.navigation.map((item, index) => (
+                {config.header.navigation.map((item, index) => (
                   <span key={index}>{item.label}</span>
                 ))}
               </div>
@@ -342,7 +354,7 @@ export default function EduProEditorPage() {
           </div>
 
           <div className="space-y-4">
-            {config.navigation.map((item, index) => (
+            {config.header.navigation.map((item, index) => (
               <div
                 key={index}
                 className="grid gap-3 rounded-xl border border-slate-200 p-4 md:grid-cols-[1fr_1.5fr_auto] md:items-end"

@@ -1,0 +1,124 @@
+{
+  "siteName": "GovConnect",
+  "logo": "",
+  "identity": {
+    "tagline": "Melayani untuk Negeri",
+    "primaryColor": "#0B3B78",
+    "secondaryColor": "#D9A441",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#102B50"
+  },
+  "header": {
+    "utilityBar": {
+      "enabled": true,
+      "items": [
+        { "label": "Republik Indonesia", "href": "#" },
+        { "label": "Pelayanan Publik", "href": "#" },
+        { "label": "Transparansi", "href": "#" },
+        { "label": "Akuntabilitas", "href": "#" }
+      ]
+    },
+    "navigation": [
+      { "label": "Beranda", "href": "#home" },
+      { "label": "Profil", "href": "#about" },
+      { "label": "Layanan", "href": "#services" },
+      { "label": "Informasi", "href": "#information" },
+      { "label": "Berita", "href": "#news" },
+      { "label": "Kontak", "href": "#contact" }
+    ],
+    "buttonText": "Layanan Publik",
+    "buttonHref": "#services"
+  },
+  "hero": {
+    "eyebrow": "Pemerintah untuk Masyarakat",
+    "heading": "Bersama Membangun Indonesia yang",
+    "highlightText": "Lebih Baik",
+    "description": "",
+    "backgroundImage": "",
+    "backgroundPosition": "center",
+    "overlayOpacity": 0,
+    "primaryButton": {
+      "text": "Jelajahi Layanan",
+      "href": "#services"
+    },
+    "secondaryButton": {
+      "text": "Tentang Kami",
+      "href": "#about"
+    }
+  },
+  "quickAccess": {
+    "enabled": true,
+    "items": [
+      { "label": "Layanan Publik", "href": "#services", "icon": "users" },
+      { "label": "Informasi Terbaru", "href": "#information", "icon": "file-text" },
+      { "label": "Pengumuman", "href": "#announcements", "icon": "megaphone" },
+      { "label": "Agenda Kegiatan", "href": "#agenda", "icon": "calendar-days" },
+      { "label": "Transparansi Anggaran", "href": "#transparency", "icon": "shield-check" }
+    ]
+  },
+  "about": {
+    "eyebrow": "Tentang Kami",
+    "heading": "Melayani dengan Integritas, Membangun dengan Kolaborasi",
+    "description": "",
+    "image": "",
+    "buttonText": "Selengkapnya",
+    "buttonHref": "#contact"
+  },
+  "values": {
+    "enabled": true,
+    "items": [
+      {
+        "title": "Pelayanan Prima",
+        "description": "",
+        "icon": "handshake"
+      },
+      {
+        "title": "Transparan & Akuntabel",
+        "description": "",
+        "icon": "shield-check"
+      },
+      {
+        "title": "Kolaborasi untuk Negeri",
+        "description": "",
+        "icon": "users"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Layanan Utama",
+    "heading": "Layanan Publik untuk Anda",
+    "description": "",
+    "items": []
+  },
+  "information": {
+    "eyebrow": "Informasi Publik",
+    "heading": "Informasi untuk Masyarakat",
+    "description": "",
+    "items": []
+  },
+  "announcements": {
+    "eyebrow": "Pengumuman",
+    "heading": "Pengumuman Terbaru",
+    "items": []
+  },
+  "agenda": {
+    "eyebrow": "Agenda",
+    "heading": "Agenda Kegiatan",
+    "items": []
+  },
+  "transparency": {
+    "eyebrow": "Transparansi",
+    "heading": "Keterbukaan Informasi Publik",
+    "description": "",
+    "items": []
+  },
+  "footer": {
+    "description": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "linkGroups": [],
+    "socialLinks": [],
+    "copyright": ""
+  }
+}

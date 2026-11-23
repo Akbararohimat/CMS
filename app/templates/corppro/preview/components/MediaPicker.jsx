@@ -8,6 +8,7 @@ export default function MediaPicker({
   label = "Background Media",
   value,
   onChange,
+  websiteId = null,
 }) {
   const [preview, setPreview] = useState("");
   const [loading, setLoading] = useState(false);
@@ -17,22 +18,34 @@ export default function MediaPicker({
     let objectUrl;
 
     async function loadPreview() {
+      setError("");
+
       if (!value?.id) {
         setPreview("");
         return;
       }
 
+      // Website media menggunakan URL dari Laravel.
+      if (websiteId && value?.url) {
+        setPreview(value.url);
+        return;
+      }
+
+      // Template master tetap menggunakan IndexedDB.
       try {
         const file = await getMediaFile(value.id);
 
         if (!file) {
+          setPreview("");
           setError("File tidak ditemukan di penyimpanan browser.");
           return;
         }
 
         objectUrl = URL.createObjectURL(file);
         setPreview(objectUrl);
-      } catch {
+      } catch (err) {
+        console.error("Gagal memuat media:", err);
+        setPreview("");
         setError("Gagal memuat media.");
       }
     }
@@ -40,9 +53,11 @@ export default function MediaPicker({
     loadPreview();
 
     return () => {
-      if (objectUrl) URL.revokeObjectURL(objectUrl);
+      if (objectUrl) {
+        URL.revokeObjectURL(objectUrl);
+      }
     };
-  }, [value?.id]);
+  }, [value?.id, value?.url, websiteId]);
 
   const handleFileChange = async (event) => {
     const file = event.target.files?.[0];
@@ -53,16 +68,22 @@ export default function MediaPicker({
 
     const validType =
       file.type.startsWith("image/") ||
-      file.type.startsWith("video/");
+      ["video/mp4", "video/webm"].includes(file.type);
 
     if (!validType) {
-      setError("File harus berupa gambar atau video.");
+      setError("Format file tidak didukung.");
       event.target.value = "";
       return;
     }
 
-    if (file.size > 50 * 1024 * 1024) {
-      setError("Ukuran file maksimal 50 MB.");
+    const maxSize = websiteId
+      ? 100 * 1024 * 1024
+      : 50 * 1024 * 1024;
+
+    if (file.size > maxSize) {
+      setError(
+        `Ukuran file maksimal ${websiteId ? "100" : "50"} MB.`
+      );
       event.target.value = "";
       return;
     }
@@ -70,26 +91,107 @@ export default function MediaPicker({
     setLoading(true);
 
     try {
-      const media = await saveMediaFile(file);
+      if (websiteId) {
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("collection", "website");
 
-      onChange(media);
-    } catch (error) {
-      console.error("Gagal menyimpan media:", error);
-      setError("Gagal menyimpan file. Silakan coba lagi.");
+        const response = await fetch(
+          `/api/websites/${encodeURIComponent(websiteId)}/media`,
+          {
+            method: "POST",
+            body: formData,
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          throw new Error(
+            result.message || "Gagal mengunggah media website."
+          );
+        }
+
+        const uploadedMedia = result.data;
+
+        onChange({
+          id: uploadedMedia.id,
+          name: uploadedMedia.original_name,
+          type: uploadedMedia.mime_type,
+          url: uploadedMedia.url,
+        });
+      } else {
+        const media = await saveMediaFile(file);
+        onChange(media);
+      }
+    } catch (err) {
+      console.error("Gagal menyimpan media:", err);
+      setError(err.message || "Gagal menyimpan file. Silakan coba lagi.");
     } finally {
       setLoading(false);
       event.target.value = "";
     }
   };
 
-  const isVideo = value?.type?.startsWith("video/");
+  const handleRemove = async () => {
+    if (loading) return;
+
+    setError("");
+
+    if (websiteId && value?.id) {
+      setLoading(true);
+
+      try {
+        const response = await fetch(
+          `/api/websites/${encodeURIComponent(websiteId)}/media/${encodeURIComponent(value.id)}`,
+          {
+            method: "DELETE",
+          }
+        );
+
+        const result = await response.json();
+
+        if (!response.ok) {
+          throw new Error(
+            result.message || "Gagal menghapus media."
+          );
+        }
+
+        onChange(null);
+        setPreview("");
+      } catch (err) {
+        console.error("Gagal menghapus media:", err);
+        setError(err.message || "Gagal menghapus media.");
+      } finally {
+        setLoading(false);
+      }
+
+      return;
+    }
+
+    onChange(null);
+    setPreview("");
+  };
+
+  const isVideo =
+    value?.type?.startsWith("video/") ||
+    value?.mime_type?.startsWith("video/");
+
+  const mediaName =
+    value?.name ||
+    value?.original_name ||
+    "Media terpilih";
 
   return (
     <div className="space-y-3">
       <div>
-        <p className="text-sm font-medium text-slate-700">{label}</p>
+        <p className="text-sm font-medium text-slate-700">
+          {label}
+        </p>
+
         <p className="mt-1 text-xs text-slate-500">
-          Pilih gambar atau video maksimal 50 MB.
+          Pilih gambar atau video maksimal{" "}
+          {websiteId ? "100 MB" : "50 MB"}.
         </p>
       </div>
 
@@ -104,7 +206,7 @@ export default function MediaPicker({
           ) : (
             <img
               src={preview}
-              alt="Media preview"
+              alt={value?.alt_text || "Media preview"}
               className="h-52 w-full object-contain"
             />
           )}
@@ -118,19 +220,21 @@ export default function MediaPicker({
               )}
 
               <span className="truncate text-xs text-slate-600">
-                {value?.name}
+                {mediaName}
               </span>
             </div>
 
             <button
               type="button"
-              onClick={() => {
-                onChange(null);
-                setPreview("");
-              }}
-              className="inline-flex shrink-0 items-center gap-1 rounded-md px-2 py-1.5 text-xs font-medium text-red-600 hover:bg-red-50"
+              onClick={handleRemove}
+              disabled={loading}
+              className="inline-flex shrink-0 items-center gap-1 rounded-md px-2 py-1.5 text-xs font-medium text-red-600 hover:bg-red-50 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              <Trash2 size={14} />
+              {loading ? (
+                <LoaderCircle size={14} className="animate-spin" />
+              ) : (
+                <Trash2 size={14} />
+              )}
               Hapus
             </button>
           </div>
@@ -151,12 +255,12 @@ export default function MediaPicker({
           </span>
 
           <span className="mt-1 text-xs text-slate-500">
-            PNG, JPG, WEBP, MP4, WEBM
+            PNG, JPG, WEBP, GIF, MP4, WEBM
           </span>
 
           <input
             type="file"
-            accept="image/*,video/mp4,video/webm"
+            accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm"
             onChange={handleFileChange}
             disabled={loading}
             className="hidden"
@@ -165,7 +269,9 @@ export default function MediaPicker({
       )}
 
       {error && (
-        <p className="text-xs text-red-600">{error}</p>
+        <p className="text-xs text-red-600">
+          {error}
+        </p>
       )}
     </div>
   );

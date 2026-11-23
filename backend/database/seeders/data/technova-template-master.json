@@ -1,0 +1,121 @@
+{
+  "siteName": "TechNova",
+  "logo": "",
+  "header": {
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Solutions", "href": "#solutions" },
+      { "label": "Projects", "href": "#projects" },
+      { "label": "Testimonials", "href": "#testimonials" }
+    ],
+    "buttonText": "Get in Touch",
+    "buttonHref": "#contact"
+  },
+  "hero": {
+    "badgeText": "Innovative Technology Solutions",
+    "heading": "Build a Smarter Digital",
+    "highlightText": "Future",
+    "description": "We provide technology solutions to help businesses grow and innovate.",
+    "backgroundImage": "",
+    "primaryButton": {
+      "text": "Explore Our Solutions",
+      "href": "#services"
+    },
+    "secondaryButton": {
+      "text": "Discover TechNova",
+      "href": "#about"
+    }
+  },
+  "about": {
+    "eyebrow": "About TechNova",
+    "heading": "Empowering Businesses Through Technology",
+    "description": "",
+    "secondaryDescription": "",
+    "image": "",
+    "highlights": [
+      "Innovative Digital Solutions",
+      "Experienced Technology Team",
+      "Reliable Business Partnership"
+    ],
+    "buttonText": "Discover More",
+    "buttonHref": "#services"
+  },
+  "services": {
+    "eyebrow": "What We Offer",
+    "heading": "Technology Solutions for a Better Tomorrow",
+    "description": "",
+    "items": [
+      {
+        "number": "01",
+        "icon": "code",
+        "title": "Software Development",
+        "description": ""
+      },
+      {
+        "number": "02",
+        "icon": "cloud",
+        "title": "Cloud Solutions",
+        "description": ""
+      },
+      {
+        "number": "03",
+        "icon": "lightbulb",
+        "title": "IT Consulting",
+        "description": ""
+      }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Selected Works",
+    "heading": "Ideas Into Real Impact.",
+    "description": "",
+    "items": []
+  },
+  "testimonials": {
+    "eyebrow": "Client Stories",
+    "heading": "What People Say About Us.",
+    "description": "",
+    "items": []
+  },
+  "cta": {
+    "eyebrow": "Let's Work Together",
+    "heading": "Ready to Transform Your Digital Future?",
+    "description": "",
+    "buttonText": "Get in Touch",
+    "buttonHref": "mailto:hello@technova.com"
+  },
+  "footer": {
+    "description": "",
+    "linkGroups": [
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "#about" },
+          { "label": "Our Services", "href": "#services" },
+          { "label": "Our Projects", "href": "#projects" },
+          { "label": "Testimonials", "href": "#testimonials" }
+        ]
+      },
+      {
+        "title": "Solutions",
+        "links": [
+          { "label": "Software Development", "href": "#services" },
+          { "label": "Cloud Solutions", "href": "#services" },
+          { "label": "IT Consulting", "href": "#services" },
+          { "label": "Contact Us", "href": "#contact" }
+        ]
+      }
+    ],
+    "socialLinks": [
+      { "label": "Instagram", "href": "" },
+      { "label": "LinkedIn", "href": "" },
+      { "label": "Facebook", "href": "" }
+    ],
+    "email": "",
+    "phone": "",
+    "address": "",
+    "copyright": ""
+  }
+}

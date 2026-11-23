@@ -1,0 +1,267 @@
+{
+  "siteName": "CivicPortal",
+  "logo": "",
+  "identity": {
+    "tagline": "Your City, Your Services",
+    "primaryColor": "#C65D3A",
+    "secondaryColor": "#C7D95B",
+    "backgroundColor": "#F4EBDD",
+    "textColor": "#202B28"
+  },
+  "header": {
+    "utilityBar": {
+      "enabled": true,
+      "items": [
+        { "label": "City Government", "href": "#about" },
+        { "label": "Public Information", "href": "#updates" },
+        { "label": "Help Center", "href": "#contact" }
+      ]
+    },
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "How It Works", "href": "#how-it-works" },
+      { "label": "City Updates", "href": "#updates" },
+      { "label": "Open Government", "href": "#transparency" }
+    ],
+    "buttonText": "Explore Services",
+    "buttonHref": "#services"
+  },
+  "hero": {
+    "eyebrow": "A CITY THAT WORKS FOR EVERYONE",
+    "heading": "Your city.",
+    "highlightText": "Made simpler.",
+    "description": "Find public services, discover what's happening, and access the information you need — all in one place.",
+    "backgroundImage": "",
+    "backgroundPosition": "center",
+    "primaryButton": {
+      "text": "Find a Service",
+      "href": "#services"
+    },
+    "secondaryButton": {
+      "text": "Explore the City",
+      "href": "#updates"
+    }
+  },
+  "services": {
+    "eyebrow": "PUBLIC SERVICES",
+    "heading": "What can we help you with?",
+    "description": "Browse the services and information available through this city portal.",
+    "categories": ["All", "Documents", "Business", "Community", "Environment"],
+    "items": [
+      {
+        "title": "Civil Registration",
+        "category": "Documents",
+        "description": "Information about identity and civil registration services.",
+        "icon": "id-card",
+        "href": "#contact",
+        "label": "Resident services"
+      },
+      {
+        "title": "Business Permits",
+        "category": "Business",
+        "description": "Explore business licensing requirements and procedures.",
+        "icon": "store",
+        "href": "#contact",
+        "label": "Business services"
+      },
+      {
+        "title": "Public Facilities",
+        "category": "Community",
+        "description": "Find information about public facilities and community spaces.",
+        "icon": "building-2",
+        "href": "#contact",
+        "label": "Community"
+      },
+      {
+        "title": "Waste Management",
+        "category": "Environment",
+        "description": "Learn about waste collection and environmental services.",
+        "icon": "recycle",
+        "href": "#contact",
+        "label": "Environment"
+      },
+      {
+        "title": "Public Complaints",
+        "category": "Community",
+        "description": "Find the official channels for submitting public feedback.",
+        "icon": "message-square",
+        "href": "#participation",
+        "label": "Public participation"
+      },
+      {
+        "title": "Public Information",
+        "category": "Documents",
+        "description": "Access public information and official announcements.",
+        "icon": "file-text",
+        "href": "#transparency",
+        "label": "Open information"
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "A SIMPLE PROCESS",
+    "heading": "Getting things done, made clearer.",
+    "description": "A simple guide to finding and accessing public services.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Find your service",
+        "description": "Browse the service directory and choose the information you need."
+      },
+      {
+        "number": "02",
+        "title": "Check the requirements",
+        "description": "Review the documents, procedures, and relevant information."
+      },
+      {
+        "number": "03",
+        "title": "Contact the office",
+        "description": "Use the official contact details to continue your service request."
+      }
+    ]
+  },
+  "updates": {
+    "eyebrow": "WHAT'S HAPPENING",
+    "heading": "Around your city.",
+    "description": "Updates and information from the city government.",
+    "categories": ["All", "News", "Announcement", "Community"],
+    "items": [
+      {
+        "title": "Community Development Program",
+        "category": "Community",
+        "date": "2026-11-10",
+        "description": "An illustrative update about community development activities.",
+        "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=85",
+        "href": "#contact"
+      },
+      {
+        "title": "Public Service Information",
+        "category": "Announcement",
+        "date": "2026-11-12",
+        "description": "An illustrative announcement about public service information.",
+        "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85",
+        "href": "#contact"
+      },
+      {
+        "title": "A More Sustainable Neighborhood",
+        "category": "News",
+        "date": "2026-11-15",
+        "description": "An illustrative story about neighborhood environmental initiatives.",
+        "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1200&q=85",
+        "href": "#contact"
+      }
+    ]
+  },
+  "agenda": {
+    "eyebrow": "MARK YOUR CALENDAR",
+    "heading": "Coming up in the city.",
+    "items": [
+      {
+        "day": "25",
+        "month": "NOV",
+        "title": "Community Consultation",
+        "date": "2026-11-25",
+        "time": "09:00",
+        "location": "City Hall",
+        "description": "Illustrative public consultation agenda."
+      },
+      {
+        "day": "28",
+        "month": "NOV",
+        "title": "Public Environment Forum",
+        "date": "2026-11-28",
+        "time": "13:00",
+        "location": "Community Center",
+        "description": "Illustrative public forum agenda."
+      }
+    ]
+  },
+  "transparency": {
+    "eyebrow": "OPEN GOVERNMENT",
+    "heading": "Information belongs to everyone.",
+    "description": "Explore public information and transparency resources.",
+    "tabs": [
+      {
+        "label": "Public Documents",
+        "items": [
+          {
+            "title": "Public Information Guide",
+            "type": "Information",
+            "year": "2026",
+            "href": "#contact"
+          },
+          {
+            "title": "Government Service Procedures",
+            "type": "Guidelines",
+            "year": "2026",
+            "href": "#contact"
+          }
+        ]
+      },
+      {
+        "label": "Planning",
+        "items": [
+          {
+            "title": "City Development Plan",
+            "type": "Planning",
+            "year": "2026",
+            "href": "#contact"
+          }
+        ]
+      },
+      {
+        "label": "Reports",
+        "items": [
+          {
+            "title": "Public Service Report",
+            "type": "Report",
+            "year": "2026",
+            "href": "#contact"
+          }
+        ]
+      }
+    ]
+  },
+  "participation": {
+    "eyebrow": "YOUR VOICE MATTERS",
+    "heading": "A better city starts with participation.",
+    "description": "Find the appropriate official channels to share feedback, ideas, and public concerns.",
+    "buttonText": "Explore Contact Channels",
+    "buttonHref": "#contact"
+  },
+  "contact": {
+    "eyebrow": "GET IN TOUCH",
+    "heading": "Here when you need us.",
+    "address": "City Government Office — Demo Address",
+    "email": "info@example.gov",
+    "phone": "+62 000 0000 0000",
+    "officeHours": "Monday – Friday, 08:00 – 16:00"
+  },
+  "footer": {
+    "description": "A demonstration public service portal template.",
+    "address": "City Government Office — Demo Address",
+    "email": "info@example.gov",
+    "phone": "+62 000 0000 0000",
+    "linkGroups": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Services", "href": "#services" },
+          { "label": "City Updates", "href": "#updates" },
+          { "label": "Agenda", "href": "#agenda" }
+        ]
+      },
+      {
+        "title": "Information",
+        "links": [
+          { "label": "Open Government", "href": "#transparency" },
+          { "label": "Participation", "href": "#participation" },
+          { "label": "Contact", "href": "#contact" }
+        ]
+      }
+    ],
+    "socialLinks": [],
+    "copyright": "© 2026 CivicPortal. Demonstration template."
+  }
+}
