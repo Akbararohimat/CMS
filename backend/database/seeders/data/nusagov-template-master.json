@@ -1,0 +1,258 @@
+{
+  "siteName": "NusaGov",
+  "logo": "",
+  "theme": {
+    "primary": "#173B67",
+    "secondary": "#245A91",
+    "accent": "#D6A84B",
+    "background": "#F4F6F9",
+    "surface": "#FFFFFF",
+    "text": "#202D3B",
+    "muted": "#687789",
+    "border": "#DFE5EC"
+  },
+  "header": {
+    "logo": "",
+    "institutionName": "DINAS PELAYANAN DAN INFORMASI PUBLIK",
+    "institutionShortName": "NUSAGOV",
+    "tagline": "Melayani dengan Transparansi",
+    "navigation": [
+      { "label": "Beranda", "href": "#home" },
+      { "label": "Profil", "href": "#profile" },
+      { "label": "Layanan", "href": "#services" },
+      { "label": "Informasi", "href": "#information" },
+      { "label": "Berita", "href": "#news" },
+      { "label": "Kontak", "href": "#contact" }
+    ],
+    "buttonText": "Layanan Publik",
+    "buttonHref": "#services"
+  },
+  "hero": {
+    "eyebrow": "PORTAL RESMI INSTANSI PEMERINTAH",
+    "heading": "Mewujudkan Pelayanan Publik yang",
+    "highlightText": "Terbuka dan Terpercaya",
+    "description": "Selamat datang di portal resmi instansi. Temukan informasi pemerintahan, program kerja, layanan masyarakat, dan berbagai informasi publik dalam satu platform.",
+    "backgroundImage": "",
+    "backgroundPosition": "center",
+    "overlayOpacity": 0.45,
+    "primaryButton": {
+      "text": "Jelajahi Layanan",
+      "href": "#services"
+    },
+    "secondaryButton": {
+      "text": "Profil Instansi",
+      "href": "#profile"
+    },
+    "welcomeLabel": "SELAMAT DATANG DI PORTAL RESMI KAMI"
+  },
+  "leadership": {
+    "eyebrow": "SAMBUTAN PIMPINAN",
+    "heading": "Kata Sambutan Kepala Instansi",
+    "name": "Dr. Ahmad Pratama, S.STP., M.Si.",
+    "position": "Kepala Dinas",
+    "photo": "",
+    "description": "Selamat datang di portal resmi instansi kami. Website ini merupakan sarana informasi dan komunikasi untuk mendekatkan pelayanan pemerintah kepada masyarakat. Kami berkomitmen untuk terus meningkatkan kualitas pelayanan, keterbukaan informasi, dan tata kelola pemerintahan yang baik.",
+    "buttonText": "Selengkapnya",
+    "buttonHref": "#profile"
+  },
+  "profile": {
+    "eyebrow": "PROFIL INSTANSI",
+    "heading": "Mengenal Lebih Dekat Instansi Kami",
+    "description": "Instansi pemerintah yang berkomitmen memberikan pelayanan dan informasi publik secara profesional, transparan, dan akuntabel.",
+    "secondaryDescription": "Melalui berbagai program dan kegiatan, kami terus berupaya meningkatkan kualitas pelayanan kepada masyarakat.",
+    "image": "",
+    "history": "Informasi mengenai sejarah berdirinya instansi, perkembangan organisasi, serta perjalanan dalam melaksanakan tugas pemerintahan.",
+    "vision": "Terwujudnya pelayanan publik yang profesional, transparan, inovatif, dan berorientasi kepada masyarakat.",
+    "mission": [
+      "Meningkatkan kualitas pelayanan publik.",
+      "Mewujudkan tata kelola pemerintahan yang transparan dan akuntabel.",
+      "Mengembangkan inovasi dalam penyelenggaraan layanan.",
+      "Meningkatkan kompetensi dan profesionalisme aparatur."
+    ],
+    "duties": "Melaksanakan urusan pemerintahan sesuai dengan tugas dan kewenangan instansi.",
+    "functions": [
+      "Perumusan kebijakan teknis.",
+      "Pelaksanaan program dan kegiatan.",
+      "Koordinasi dan pengawasan pelaksanaan tugas.",
+      "Evaluasi dan pelaporan penyelenggaraan pemerintahan."
+    ],
+    "buttonText": "Selengkapnya Tentang Kami",
+    "buttonHref": "#contact"
+  },
+  "services": {
+    "eyebrow": "PELAYANAN PUBLIK",
+    "heading": "Akses Layanan dengan Lebih Mudah",
+    "description": "Temukan berbagai layanan dan informasi yang tersedia untuk masyarakat.",
+    "items": [
+      {
+        "number": "01",
+        "icon": "file-text",
+        "title": "Informasi Administrasi",
+        "description": "Informasi mengenai persyaratan dan prosedur administrasi.",
+        "buttonText": "Lihat Detail",
+        "href": "#contact"
+      },
+      {
+        "number": "02",
+        "icon": "clipboard-list",
+        "title": "Pengajuan Layanan",
+        "description": "Informasi alur pengajuan layanan sesuai kewenangan instansi.",
+        "buttonText": "Lihat Detail",
+        "href": "#contact"
+      },
+      {
+        "number": "03",
+        "icon": "message-square",
+        "title": "Pengaduan Masyarakat",
+        "description": "Saluran penyampaian aspirasi dan pengaduan masyarakat.",
+        "buttonText": "Lihat Detail",
+        "href": "#contact"
+      },
+      {
+        "number": "04",
+        "icon": "file-search",
+        "title": "Permohonan Informasi",
+        "description": "Informasi mengenai mekanisme permohonan informasi publik.",
+        "buttonText": "Lihat Detail",
+        "href": "#information"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "INFORMASI TERKINI",
+    "heading": "Berita dan Kegiatan Instansi",
+    "description": "Ikuti perkembangan informasi, kegiatan, dan program instansi.",
+    "items": []
+  },
+  "announcements": {
+    "eyebrow": "PENGUMUMAN",
+    "heading": "Pengumuman Resmi",
+    "description": "Informasi penting dan pengumuman resmi dari instansi.",
+    "items": []
+  },
+  "programs": {
+    "eyebrow": "PROGRAM DAN KEGIATAN",
+    "heading": "Program Kerja Instansi",
+    "description": "Berbagai program dan kegiatan dalam mendukung pelaksanaan tugas pemerintahan.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Peningkatan Pelayanan Publik",
+        "description": "Program peningkatan kualitas dan kemudahan akses pelayanan masyarakat.",
+        "image": "",
+        "year": ""
+      },
+      {
+        "number": "02",
+        "title": "Pengembangan Inovasi",
+        "description": "Pengembangan inovasi dan pemanfaatan teknologi dalam penyelenggaraan pemerintahan.",
+        "image": "",
+        "year": ""
+      },
+      {
+        "number": "03",
+        "title": "Penguatan Tata Kelola",
+        "description": "Peningkatan kualitas tata kelola organisasi dan administrasi pemerintahan.",
+        "image": "",
+        "year": ""
+      }
+    ]
+  },
+  "information": {
+    "eyebrow": "KETERBUKAAN INFORMASI",
+    "heading": "Informasi Publik",
+    "description": "Akses dokumen dan informasi publik sebagai bentuk transparansi penyelenggaraan pemerintahan.",
+    "categories": [
+      {
+        "id": "berkala",
+        "title": "Informasi Berkala",
+        "description": "Informasi yang wajib disediakan dan diumumkan secara berkala.",
+        "icon": "calendar",
+        "items": []
+      },
+      {
+        "id": "serta-merta",
+        "title": "Informasi Serta Merta",
+        "description": "Informasi yang perlu disampaikan segera kepada masyarakat.",
+        "icon": "bell",
+        "items": []
+      },
+      {
+        "id": "setiap-saat",
+        "title": "Informasi Setiap Saat",
+        "description": "Informasi yang tersedia dan dapat diakses sesuai ketentuan.",
+        "icon": "folder-open",
+        "items": []
+      }
+    ],
+    "buttonText": "Lihat Seluruh Informasi",
+    "buttonHref": "#contact"
+  },
+  "agenda": {
+    "eyebrow": "AGENDA INSTANSI",
+    "heading": "Agenda dan Jadwal Kegiatan",
+    "description": "Informasi agenda kegiatan dan aktivitas resmi instansi.",
+    "items": []
+  },
+  "gallery": {
+    "eyebrow": "DOKUMENTASI",
+    "heading": "Galeri Kegiatan",
+    "description": "Dokumentasi kegiatan dan aktivitas instansi.",
+    "items": []
+  },
+  "contact": {
+    "eyebrow": "HUBUNGI KAMI",
+    "heading": "Kami Siap Melayani Anda",
+    "description": "Hubungi instansi untuk mendapatkan informasi lebih lanjut mengenai layanan dan kegiatan.",
+    "address": "Jl. Merdeka No. 10, Indonesia",
+    "email": "informasi@nusagov.go.id",
+    "phone": "(021) 12345678",
+    "officeHours": "Senin - Jumat, 08.00 - 16.00 WIB",
+    "mapEmbedUrl": "",
+    "socialLinks": [
+      {
+        "label": "Instagram",
+        "href": ""
+      },
+      {
+        "label": "Facebook",
+        "href": ""
+      },
+      {
+        "label": "YouTube",
+        "href": ""
+      }
+    ]
+  },
+  "footer": {
+    "description": "Portal resmi instansi pemerintah sebagai sarana informasi, komunikasi, dan pelayanan publik.",
+    "linkGroups": [
+      {
+        "title": "Profil",
+        "links": [
+          { "label": "Tentang Instansi", "href": "#profile" },
+          { "label": "Visi dan Misi", "href": "#profile" },
+          { "label": "Sambutan Pimpinan", "href": "#leadership" }
+        ]
+      },
+      {
+        "title": "Informasi",
+        "links": [
+          { "label": "Berita", "href": "#news" },
+          { "label": "Pengumuman", "href": "#announcements" },
+          { "label": "Agenda", "href": "#agenda" },
+          { "label": "Informasi Publik", "href": "#information" }
+        ]
+      },
+      {
+        "title": "Layanan",
+        "links": [
+          { "label": "Pelayanan Publik", "href": "#services" },
+          { "label": "Program", "href": "#programs" },
+          { "label": "Kontak", "href": "#contact" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 NusaGov. Seluruh Hak Cipta Dilindungi."
+  }
+}

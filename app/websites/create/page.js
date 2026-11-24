@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -77,6 +78,8 @@ function createSlug(value) {
 }
 
 export default function CreateWebsitePage() {
+  const router = useRouter();
+
   const [customers, setCustomers] = useState([]);
   const [templates, setTemplates] = useState([]);
 
@@ -91,7 +94,10 @@ export default function CreateWebsitePage() {
 
   const [slugEdited, setSlugEdited] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [submitting, setSubmitting] = useState(false);
+
   const [error, setError] = useState("");
+  const [submitError, setSubmitError] = useState("");
   const [notice, setNotice] = useState("");
   const [errors, setErrors] = useState({});
 
@@ -152,6 +158,7 @@ export default function CreateWebsitePage() {
     }));
 
     setNotice("");
+    setSubmitError("");
   }
 
   function handleSlugChange(event) {
@@ -170,6 +177,7 @@ export default function CreateWebsitePage() {
     }));
 
     setNotice("");
+    setSubmitError("");
   }
 
   function validateForm() {
@@ -215,15 +223,69 @@ export default function CreateWebsitePage() {
     return Object.keys(newErrors).length === 0;
   }
 
-  function handleSubmit(event) {
+  async function handleSubmit(event) {
     event.preventDefault();
+
     setNotice("");
+    setSubmitError("");
 
     if (!validateForm()) return;
 
-    setNotice(
-      "Form sudah valid. Integrasi penyimpanan website akan dibuat pada tahap berikutnya."
-    );
+    try {
+      setSubmitting(true);
+
+      const response = await fetch("/api/websites", {
+        method: "POST",
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          customer_id: Number(form.customer_id),
+          template_id: Number(form.template_id),
+          name: form.name.trim(),
+          slug: form.slug.trim(),
+          domain: form.domain.trim() || null,
+          status: form.status,
+        }),
+      });
+
+      const responseText = await response.text();
+
+      let result;
+
+      try {
+        result = responseText
+          ? JSON.parse(responseText)
+          : {};
+      } catch {
+        throw new Error("Respons server tidak valid.");
+      }
+
+      if (!response.ok) {
+        const validationMessages = result.errors
+          ? Object.values(result.errors).flat()
+          : [];
+
+        throw new Error(
+          validationMessages[0] ||
+            result.message ||
+            "Gagal membuat website."
+        );
+      }
+
+      setNotice("Website berhasil dibuat. Mengalihkan ke Website List...");
+
+      router.push("/websites");
+      router.refresh();
+    } catch (err) {
+      setSubmitError(
+        err.message ||
+          "Terjadi kesalahan saat membuat website."
+      );
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   const selectedCustomer = customers.find(
@@ -718,6 +780,26 @@ export default function CreateWebsitePage() {
                 </div>
               </section>
 
+              {/* Submit Error */}
+              {submitError && (
+                <div className="flex items-start gap-3 rounded-xl border border-red-200 bg-red-50 p-4">
+                  <AlertCircle
+                    size={19}
+                    className="mt-0.5 shrink-0 text-red-600"
+                  />
+
+                  <div>
+                    <p className="text-sm font-semibold text-red-700">
+                      Gagal membuat website
+                    </p>
+
+                    <p className="mt-1 text-sm leading-6 text-red-600">
+                      {submitError}
+                    </p>
+                  </div>
+                </div>
+              )}
+
               {/* Notice */}
               {notice && (
                 <div className="flex items-start gap-3 rounded-xl border border-blue-200 bg-blue-50 p-4">
@@ -750,12 +832,25 @@ export default function CreateWebsitePage() {
                     type="submit"
                     disabled={
                       customers.length === 0 ||
-                      templates.length === 0
+                      templates.length === 0 ||
+                      submitting
                     }
                     className="flex items-center gap-2 rounded-xl bg-[#102C62] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#193D7D] disabled:cursor-not-allowed disabled:opacity-50"
                   >
-                    <Plus size={17} />
-                    Create Website
+                    {submitting ? (
+                      <>
+                        <RefreshCw
+                          size={17}
+                          className="animate-spin"
+                        />
+                        Creating Website...
+                      </>
+                    ) : (
+                      <>
+                        <Plus size={17} />
+                        Create Website
+                      </>
+                    )}
                   </button>
                 </div>
               </div>

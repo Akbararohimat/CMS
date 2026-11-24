@@ -1,0 +1,242 @@
+{
+  "siteName": "CargoFlow",
+  "tagline": "Moving Business Forward",
+  "logo": "",
+  "theme": {
+    "primary": "#10243A",
+    "secondary": "#F26A2C",
+    "background": "#F5F6F4",
+    "surface": "#FFFFFF",
+    "text": "#172B3A",
+    "muted": "#687783",
+    "fontHeading": "Arial",
+    "fontBody": "Arial",
+    "containerWidth": "1280px"
+  },
+  "announcement": {
+    "visible": true,
+    "text": "Reliable logistics solutions for businesses of every scale",
+    "backgroundColor": "#F26A2C",
+    "textColor": "#FFFFFF"
+  },
+  "header": {
+    "logoText": "CARGOFLOW",
+    "backgroundColor": "#10243A",
+    "textColor": "#FFFFFF",
+    "navigation": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Network", "href": "#network" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "buttonText": "Get a Quote",
+    "buttonHref": "#contact"
+  },
+  "hero": {
+    "eyebrow": "LOGISTICS & SUPPLY CHAIN",
+    "title": "Your Cargo. Our Commitment.",
+    "highlight": "Moving Business Forward.",
+    "description": "Integrated freight, warehousing, and distribution solutions designed to keep your business moving.",
+    "backgroundImage": "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?auto=format&fit=crop&w=2000&q=85",
+    "overlayColor": "#10243A",
+    "overlayOpacity": 0.78,
+    "primaryButton": "Explore Services",
+    "primaryHref": "#services",
+    "secondaryButton": "Track Shipment",
+    "secondaryHref": "#tracking"
+  },
+  "tracking": {
+    "visible": true,
+    "eyebrow": "SHIPMENT VISIBILITY",
+    "title": "Track your shipment",
+    "description": "Enter a reference number to view a sample shipment status.",
+    "placeholder": "Enter tracking reference",
+    "buttonText": "Track Cargo",
+    "demoReference": "CFG-2026-001",
+    "demoStatus": "In Transit",
+    "demoLocation": "Jakarta Distribution Hub",
+    "demoMessage": "This is a demonstration tracking result. Live shipment tracking is not connected."
+  },
+  "services": {
+    "visible": true,
+    "eyebrow": "WHAT WE DO",
+    "title": "Logistics built around your business",
+    "description": "Flexible logistics services that connect your operations with customers and markets.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Freight Forwarding",
+        "description": "Coordinated domestic and international freight solutions for different cargo requirements.",
+        "icon": "ship"
+      },
+      {
+        "number": "02",
+        "title": "Warehousing",
+        "description": "Storage and inventory handling designed to support efficient distribution operations.",
+        "icon": "warehouse"
+      },
+      {
+        "number": "03",
+        "title": "Land Transportation",
+        "description": "Road transportation solutions for planned deliveries and distribution needs.",
+        "icon": "truck"
+      },
+      {
+        "number": "04",
+        "title": "Supply Chain Solutions",
+        "description": "Operational coordination that helps connect sourcing, storage, and delivery.",
+        "icon": "network"
+      }
+    ]
+  },
+  "about": {
+    "visible": true,
+    "eyebrow": "ABOUT CARGOFLOW",
+    "title": "Connecting every step of your supply chain",
+    "description": "CargoFlow is a demonstration logistics brand built around a simple idea: logistics should make business operations easier to manage. Our service model brings transportation, storage, and distribution into one coordinated experience.",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=85",
+    "buttonText": "Discover Our Approach",
+    "buttonHref": "#network"
+  },
+  "network": {
+    "visible": true,
+    "eyebrow": "OUR NETWORK",
+    "title": "Built to connect markets",
+    "description": "A sample overview of the logistics capabilities and locations a provider can present.",
+    "items": [
+      {
+        "title": "Port Connections",
+        "description": "Freight coordination around major port and cargo gateways.",
+        "location": "Port Operations"
+      },
+      {
+        "title": "Distribution Hubs",
+        "description": "Strategically planned storage and distribution facilities.",
+        "location": "Regional Warehousing"
+      },
+      {
+        "title": "Delivery Routes",
+        "description": "Road transportation planning for business distribution.",
+        "location": "Domestic Transport"
+      }
+    ]
+  },
+  "industries": {
+    "visible": true,
+    "eyebrow": "INDUSTRIES WE SERVE",
+    "title": "Different industries. Connected solutions.",
+    "items": [
+      {
+        "title": "Manufacturing",
+        "description": "Material movement and finished-goods distribution."
+      },
+      {
+        "title": "Retail & E-commerce",
+        "description": "Inventory movement and delivery coordination."
+      },
+      {
+        "title": "Food & Beverage",
+        "description": "Logistics planning for time-sensitive product distribution."
+      },
+      {
+        "title": "Consumer Goods",
+        "description": "Distribution support across business channels."
+      }
+    ]
+  },
+  "process": {
+    "visible": true,
+    "eyebrow": "HOW IT WORKS",
+    "title": "A clearer journey from pickup to delivery",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Plan",
+        "description": "Share your cargo requirements and delivery destination."
+      },
+      {
+        "number": "02",
+        "title": "Coordinate",
+        "description": "Choose a suitable service and coordinate the shipment."
+      },
+      {
+        "number": "03",
+        "title": "Move",
+        "description": "Cargo moves through the planned transportation process."
+      },
+      {
+        "number": "04",
+        "title": "Deliver",
+        "description": "The shipment reaches its intended destination."
+      }
+    ]
+  },
+  "fleet": {
+    "visible": true,
+    "eyebrow": "FLEET & FACILITIES",
+    "title": "The infrastructure behind every movement",
+    "description": "Showcase transportation equipment, warehouse facilities, and operational infrastructure.",
+    "items": [
+      {
+        "title": "Cargo Trucks",
+        "description": "Road transportation for business cargo.",
+        "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "title": "Warehouse Facilities",
+        "description": "Storage and handling environments.",
+        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1000&q=85"
+      },
+      {
+        "title": "Port & Freight",
+        "description": "Cargo movement through freight gateways.",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=85"
+      }
+    ]
+  },
+  "insights": {
+    "visible": true,
+    "eyebrow": "LOGISTICS INSIGHTS",
+    "title": "Ideas for better logistics operations",
+    "items": [
+      {
+        "category": "SUPPLY CHAIN",
+        "title": "Building visibility across your supply chain",
+        "description": "Why clear shipment information matters for daily operations."
+      },
+      {
+        "category": "WAREHOUSING",
+        "title": "The role of organized warehouse operations",
+        "description": "How structured storage processes support distribution."
+      },
+      {
+        "category": "TRANSPORTATION",
+        "title": "Planning transportation around business needs",
+        "description": "Considerations when choosing a freight solution."
+      }
+    ]
+  },
+  "contact": {
+    "visible": true,
+    "eyebrow": "LET'S MOVE FORWARD",
+    "title": "Have a shipment to plan?",
+    "description": "Tell us what you need to move. Our team can help you explore a suitable logistics solution.",
+    "email": "hello@example.com",
+    "phone": "+62 21 0000 0000",
+    "address": "Jakarta, Indonesia",
+    "buttonText": "Request a Quote",
+    "buttonHref": "mailto:hello@example.com"
+  },
+  "footer": {
+    "logoText": "CARGOFLOW",
+    "description": "Moving business forward through connected logistics solutions.",
+    "copyright": "© 2026 CargoFlow. Demonstration website template.",
+    "links": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Network", "href": "#network" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  }
+}

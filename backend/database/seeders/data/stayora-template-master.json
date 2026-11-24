@@ -1,0 +1,269 @@
+{
+  "siteName": "Stayora",
+  "logo": "",
+  "theme": {
+    "primary": "#263B32",
+    "secondary": "#52695B",
+    "accent": "#B69A68",
+    "background": "#F6F4EF",
+    "surface": "#FFFFFF",
+    "text": "#242B25",
+    "muted": "#777B73",
+    "border": "#E5E1D8"
+  },
+  "announcement": {
+    "visible": true,
+    "text": "A quieter kind of luxury. Discover your next escape.",
+    "linkText": "Explore our offers",
+    "linkHref": "#offers"
+  },
+  "header": {
+    "brandName": "STAYORA",
+    "tagline": "HOTELS & RETREATS",
+    "navigation": [
+      { "label": "Stay", "href": "#rooms" },
+      { "label": "Experiences", "href": "#experiences" },
+      { "label": "Dining", "href": "#dining" },
+      { "label": "Offers", "href": "#offers" },
+      { "label": "Our Story", "href": "#story" }
+    ],
+    "buttonText": "Book Your Stay",
+    "buttonHref": "#booking"
+  },
+  "hero": {
+    "eyebrow": "A PLACE TO SLOW DOWN",
+    "heading": "Find your own",
+    "highlightText": "kind of escape.",
+    "description": "Thoughtfully designed spaces, meaningful experiences, and moments that stay with you long after you leave.",
+    "backgroundImage": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=2200&q=90",
+    "backgroundPosition": "center",
+    "primaryButton": {
+      "text": "Discover Stayora",
+      "href": "#story"
+    },
+    "secondaryButton": {
+      "text": "Explore Rooms",
+      "href": "#rooms"
+    },
+    "caption": "A RETREAT FOR EVERY KIND OF JOURNEY"
+  },
+  "booking": {
+    "eyebrow": "PLAN YOUR ESCAPE",
+    "heading": "Make room for something special.",
+    "checkInLabel": "Check in",
+    "checkOutLabel": "Check out",
+    "guestLabel": "Guests",
+    "buttonText": "Explore Availability",
+    "note": "This is a demonstration booking interface. Connect your hotel reservation system to accept real bookings."
+  },
+  "story": {
+    "eyebrow": "THE STAYORA FEELING",
+    "heading": "More than a place to stay.",
+    "description": "We believe the best journeys are not measured by how far you travel, but by how deeply you experience each moment. Stayora brings together considered design, warm hospitality, and a sense of place.",
+    "secondaryDescription": "From slow mornings to memorable evenings, every detail is thoughtfully considered to make your stay feel personal.",
+    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85",
+    "imageCaption": "THOUGHTFULLY DESIGNED, NATURALLY COMFORTABLE",
+    "signature": "The art of staying well."
+  },
+  "rooms": {
+    "eyebrow": "YOUR PRIVATE SANCTUARY",
+    "heading": "Spaces made for unwinding.",
+    "description": "Discover rooms and suites designed around comfort, calm, and the little details that make a difference.",
+    "buttonText": "View All Accommodations",
+    "buttonHref": "#contact",
+    "items": [
+      {
+        "name": "Garden Room",
+        "category": "ROOM",
+        "description": "A peaceful retreat surrounded by natural textures and thoughtful comforts.",
+        "image": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?auto=format&fit=crop&w=1000&q=85",
+        "size": "32 m²",
+        "capacity": "2 Guests",
+        "href": "#contact"
+      },
+      {
+        "name": "Signature Suite",
+        "category": "SUITE",
+        "description": "A generous space with a separate living area and a refined residential feel.",
+        "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1000&q=85",
+        "size": "58 m²",
+        "capacity": "2–3 Guests",
+        "href": "#contact"
+      },
+      {
+        "name": "Private Villa",
+        "category": "VILLA",
+        "description": "An intimate hideaway offering extra space for a more personal escape.",
+        "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1000&q=85",
+        "size": "85 m²",
+        "capacity": "2–4 Guests",
+        "href": "#contact"
+      }
+    ]
+  },
+  "experiences": {
+    "eyebrow": "MAKE IT YOURS",
+    "heading": "A stay filled with possibilities.",
+    "description": "Find your own rhythm through experiences inspired by the destination and the people who make it special.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Slow Mornings",
+        "description": "Take your time with quiet mornings, thoughtful breakfasts, and beautiful surroundings.",
+        "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?auto=format&fit=crop&w=1000&q=85",
+        "href": "#dining"
+      },
+      {
+        "number": "02",
+        "title": "Nature & Discovery",
+        "description": "Reconnect with the outdoors and discover the character of the destination.",
+        "image": "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=85",
+        "href": "#contact"
+      },
+      {
+        "number": "03",
+        "title": "Moments of Wellness",
+        "description": "Make space for rest, balance, and a little time dedicated to yourself.",
+        "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=85",
+        "href": "#contact"
+      }
+    ]
+  },
+  "dining": {
+    "eyebrow": "A TASTE OF STAYORA",
+    "heading": "Good food. Good company. Good moments.",
+    "description": "From relaxed breakfasts to intimate dinners, discover dining experiences that celebrate fresh ingredients and thoughtful preparation.",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1400&q=85",
+    "name": "The Veranda",
+    "type": "ALL-DAY DINING",
+    "details": "An inviting dining space for seasonal menus, familiar favourites, and new discoveries.",
+    "buttonText": "Discover Dining",
+    "buttonHref": "#contact"
+  },
+  "amenities": {
+    "eyebrow": "THE LITTLE DETAILS",
+    "heading": "Everything in its right place.",
+    "description": "Thoughtful facilities to make every part of your stay feel effortless.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Swimming Pool",
+        "description": "A refreshing space to unwind and enjoy the day."
+      },
+      {
+        "number": "02",
+        "title": "Wellness & Spa",
+        "description": "A dedicated space for relaxation and rejuvenation."
+      },
+      {
+        "number": "03",
+        "title": "Private Dining",
+        "description": "A more personal setting for special occasions."
+      },
+      {
+        "number": "04",
+        "title": "Guest Services",
+        "description": "Attentive assistance throughout your stay."
+      }
+    ]
+  },
+  "offers": {
+    "eyebrow": "SOMETHING TO LOOK FORWARD TO",
+    "heading": "Make your next stay even more special.",
+    "description": "Explore selected packages and seasonal experiences.",
+    "items": [
+      {
+        "label": "WEEKEND ESCAPE",
+        "title": "A Little More Time Away",
+        "description": "A thoughtfully planned getaway for a refreshing change of pace.",
+        "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=1000&q=85",
+        "buttonText": "Explore Package",
+        "href": "#contact"
+      },
+      {
+        "label": "STAY LONGER",
+        "title": "Settle In & Stay Awhile",
+        "description": "Enjoy a more relaxed journey with an extended-stay experience.",
+        "image": "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1000&q=85",
+        "buttonText": "Discover More",
+        "href": "#contact"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "A GLIMPSE OF STAYORA",
+    "heading": "Little moments, lasting memories.",
+    "description": "Take a closer look at the spaces and experiences waiting to be discovered.",
+    "items": [
+      {
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Contemporary hotel interior"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1575429198097-0414ec08e8cd?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Outdoor swimming pool"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Warm and comfortable hotel living space"
+      },
+      {
+        "image": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&w=1000&q=85",
+        "alt": "Nature retreat"
+      }
+    ]
+  },
+  "location": {
+    "eyebrow": "FIND YOUR WAY HERE",
+    "heading": "A destination worth discovering.",
+    "description": "Whether you are planning a quiet weekend or a longer escape, we look forward to welcoming you.",
+    "address": "Jl. Contoh No. 10, Indonesia",
+    "email": "hello@stayora.example",
+    "phone": "+62 21 0000 0000",
+    "mapUrl": "",
+    "buttonText": "Get in Touch",
+    "buttonHref": "#contact"
+  },
+  "contact": {
+    "eyebrow": "WE WOULD LOVE TO HEAR FROM YOU",
+    "heading": "Your next story starts here.",
+    "description": "Have a question or planning a special visit? Our team is ready to help.",
+    "email": "hello@stayora.example",
+    "phone": "+62 21 0000 0000",
+    "address": "Jl. Contoh No. 10, Indonesia",
+    "buttonText": "Send Us an Email",
+    "buttonHref": "mailto:hello@stayora.example"
+  },
+  "footer": {
+    "brandName": "STAYORA",
+    "tagline": "HOTELS & RETREATS",
+    "description": "A thoughtful place to stay, slow down, and discover something new.",
+    "linkGroups": [
+      {
+        "title": "DISCOVER",
+        "links": [
+          { "label": "Our Story", "href": "#story" },
+          { "label": "Rooms & Suites", "href": "#rooms" },
+          { "label": "Experiences", "href": "#experiences" }
+        ]
+      },
+      {
+        "title": "EXPERIENCE",
+        "links": [
+          { "label": "Dining", "href": "#dining" },
+          { "label": "Amenities", "href": "#amenities" },
+          { "label": "Special Offers", "href": "#offers" }
+        ]
+      },
+      {
+        "title": "GET IN TOUCH",
+        "links": [
+          { "label": "Contact", "href": "#contact" },
+          { "label": "Location", "href": "#location" },
+          { "label": "Book Your Stay", "href": "#booking" }
+        ]
+      }
+    ],
+    "copyright": "© 2026 Stayora. Demonstration website template."
+  }
+}

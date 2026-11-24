@@ -71,6 +71,21 @@ const templateRoutes = {
     manageUrl: null,
     accent: "from-orange-700 to-stone-900",
   },
+  nusagov: {
+  previewUrl: "/templates/nusagov/preview",
+  manageUrl: null,
+  accent: "from-slate-800 to-blue-950",
+},
+  stayora: {
+  previewUrl: "/templates/stayora/preview",
+  manageUrl: null,
+  accent: "from-emerald-900 to-stone-900",
+},
+  cargoflow: {
+    previewUrl: "/templates/cargoflow/preview",
+    manageUrl: null,
+    accent: "from-slate-900 to-orange-950",
+  },
 };
 
 function formatDate(date) {
@@ -182,7 +197,6 @@ export default function TemplatesPage() {
     <main className="min-h-screen bg-[#F7F8FC] p-6 text-slate-900 md:p-8">
       <div className="mx-auto max-w-7xl space-y-8">
 
-        {/* PAGE HEADER */}
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-center">
           <div>
             <div className="mb-2 flex items-center gap-2 text-sm text-slate-500">
@@ -212,7 +226,6 @@ export default function TemplatesPage() {
           </button>
         </div>
 
-        {/* STATISTICS */}
         <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
             <StatCard
@@ -224,7 +237,6 @@ export default function TemplatesPage() {
           ))}
         </section>
 
-        {/* TEMPLATE CATEGORIES */}
         <section className="space-y-4">
           <div>
             <h2 className="text-lg font-bold text-[#102C62]">
